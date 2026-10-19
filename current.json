@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "week": "2026-W42",
-  "valid_from": "2026-10-12",
-  "valid_to": "2026-10-18",
-  "generated_at": "2026-10-12T00:00:00+02:00",
+  "week": "2026-W43",
+  "valid_from": "2026-10-19",
+  "valid_to": "2026-10-25",
+  "generated_at": "2026-10-19T08:00:00+02:00",
   "stores": [
     {
       "name": "Willys Skövde Stallsiken",
       "source_status": {
         "status": "failed",
         "offers_found": 0,
-        "error": "Den angivna officiella reklambladssidan returnerade ett äldre reklamblad (vecka 36) vid hämtning. Inga vecka 42-rader kunde därför verifieras säkert."
+        "error": "Det angivna reklambladet kunde inte hämtas och den officiella Willys-sökningen kunde inte verifiera att resultaten avsåg exakt Willys Skövde Stallsiken. Inga osäkra rader har lagts in."
       },
       "offers": []
     },
@@ -18,40 +18,78 @@
       "name": "ICA Maxi Skövde",
       "source_status": {
         "status": "partial",
-        "offers_found": 10,
-        "total_offers_reported": 161,
-        "source_note": "Officiella butikssidan visar 161 aktuella erbjudanden. Matrelevanta rader som kunde läsas med komplett produkt, pris och enhet togs med. Cashewnötter uteslöts."
+        "offers_found": 45,
+        "total_offers_reported": 154,
+        "source_note": "Officiella ICA Maxi Skövde-sidan visar 154 aktuella erbjudanden. Matrelevanta rader med tydligt produktnamn, kampanjpris, storlek/enhet och veckokoppling har tagits med. Morötter och nötprodukter har uteslutits."
       },
       "offers": [
-        {"product":"Handskalade räkor","brand":"ICA","size":"570 g","price":79,"basis":"st","regular_price":98.31,"member_only":false,"max_quantity":2,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
-        {"product":"Avokado i nät","brand":"ICA","size":"700 g","price":35,"basis":"st","regular_price":44.95,"member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
-        {"product":"Färsk pasta fettuccine","brand":"ICA","size":"250 g","price":30,"basis":"3 för","regular_price":17.90,"member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
-        {"product":"Ägg","size":"30-p","price":59.90,"basis":"st","regular_price":75.66,"member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
-        {"product":"Bacon, stekfläsk","brand":"Tulip","size":"375 g","price":37.90,"basis":"st","regular_price":"50.05-51.08","member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
-        {"product":"Rosta","brand":"Pågen","size":"450 g","price":28,"basis":"2 för","regular_price":18.17,"member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
-        {"product":"Präst, Herrgård, Grevé, Svecia, Dacke","brand":"Arla Ko","size":"ca 667-730 g","price":89.90,"basis":"kg","regular_price":"111.90-149.21","member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
-        {"product":"Läsk","brand":"Trocadero, Loka Crush, Champis","size":"140-150 cl","price":42,"basis":"3 för","regular_price":"16.98-19.82","member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
-        {"product":"Asiatiskt bröd, toppingsås","brand":"Santa Maria","size":"200 g, 230 g, 250 ml","price":45,"basis":"2 för","regular_price":"27.54-35.45","member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
-        {"product":"Avokado i nät","brand":"ICA Rosa Bandet","size":"700 g","price":35,"basis":"st","regular_price":44.95,"member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"}
+        {"product":"Fruktdryck","brand":"Proviva","size":"1 liter","price":50,"basis":"2 för","regular_price":"29.50-37.80","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Yoghurt","brand":"Yoggi","size":"1000 g","price":38,"basis":"2 för","regular_price":"23.26-24.12","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Champinjoner i ask","brand":"ICA","size":"250 g","price":12.9,"basis":"st","regular_price":15.95,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Kolsyrat vatten","brand":"Ramlösa","size":"150 cl","price":27,"basis":"3 för","regular_price":"11.34-11.38","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Kokosmjölk, kryddmix, äggnudlar","brand":"Santa Maria","size":"30-40 g, 250 g, 250 ml","price":40,"basis":"3 för","regular_price":"16.72-19.04","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Riven ost","brand":"Arla, Kvibille","size":"150 g","price":20,"basis":"st","regular_price":"26.09-28.82","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Burrata, Stracciatella","brand":"Zeta","size":"100 g, 150 g","price":48,"basis":"2 för","regular_price":"31.84-40.35","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Juice, Smoothie","brand":"Innocent","size":"750-900 ml","price":55,"basis":"2 för","regular_price":"36.81-44.38","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Falukorv","brand":"ICA","size":"800 g","price":25,"basis":"st","regular_price":32.65,"member_only":false,"max_quantity":2,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Fryst pastarätt","brand":"Findus","size":"1000-1100 g","price":59.9,"basis":"st","regular_price":"70.93-71.87","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Ketchup","brand":"Felix","size":"970-1000 g","price":25,"basis":"st","regular_price":"29.95-42.54","member_only":false,"max_quantity":2,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Frysta grönsaker","brand":"Apetit","size":"500-600 g","price":38,"basis":"2 för","regular_price":"23.22-25.63","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Delikatesspotatis i påse","brand":"ICA","size":"900 g","price":15,"basis":"st","regular_price":20.95,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Plommon i korg","brand":"ICA","size":"800 g","price":25,"basis":"st","regular_price":30.95,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Satsumas","size":null,"price":20,"basis":"kg","regular_price":29.9,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Romanticatomater i ask","brand":"ICA","size":"300 g","price":30,"basis":"st","regular_price":41.95,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Mogen mango","brand":"ICA","size":"325 g","price":15,"basis":"st","regular_price":20.95,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Svensk vitkål","size":null,"price":10,"basis":"kg","regular_price":16.9,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Soppa","brand":"Heinz","size":"400 g","price":29,"basis":"2 för","regular_price":19.82,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Fryst paj","brand":"Felix","size":"210-220 g","price":100,"basis":"4 för","regular_price":30.23,"member_only":false,"max_quantity":1,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Sås Just Add","brand":"Touch of Taste","size":"300 ml","price":55,"basis":"2 för","regular_price":35.91,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Makaroner, fullkornspasta","brand":"Kungsörnen","size":"500-750 g","price":22,"basis":"2 för","regular_price":"11.95-17.93","member_only":false,"max_quantity":1,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Frysta vegoprodukter","brand":"Hälsans kök","size":"700-720 g","price":125,"basis":"2 för","regular_price":"75.66-82.28","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Turkisk, Grekisk Yoghurt","brand":"Salakis","size":"1 kg","price":55,"basis":"2 för","regular_price":"30.33-42.29","member_only":false,"max_quantity":1,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Vispgrädde","brand":"Skånemejerier","size":"5 dl","price":25,"basis":"st","regular_price":28.32,"member_only":false,"max_quantity":2,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Smör","brand":"Valio","size":"500 g","price":39.9,"basis":"st","regular_price":"62.41-67.25","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Proteinbar","brand":"Dalblads Swebar","size":"50-55 g","price":65,"basis":"4 för","regular_price":"19.77-19.82","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Färsk fylld pasta","brand":"Rana","size":"250 g","price":65,"basis":"2 för","regular_price":"46.79-46.84","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Bruna bönor, risgröt, ärter med fläsk","brand":"Felix","size":"500 g","price":30,"basis":"3 för","regular_price":"10.94-13.94","member_only":false,"max_quantity":1,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Billys pizza","brand":"Billys","size":"160-170 g","price":48,"basis":"4 för","regular_price":14.14,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Jollekaka 6-p","brand":"Pågen","size":"400 g","price":35,"basis":"2 för","regular_price":24.33,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Svenska äpplen","brand":"ICA","size":null,"price":25,"basis":"kg","regular_price":"27.39-34.95","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Wienerpölser, röda pölser","brand":"Göl","size":"375 g","price":32.9,"basis":"st","regular_price":45.29,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Fryst kyckling","brand":"Guldfågeln","size":"350-500 g","price":90,"basis":"3 för","regular_price":"39.53-39.91","member_only":false,"max_quantity":1,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Kycklingsteak","brand":"Kronfågel","size":"ca 900 g","price":87.9,"basis":"kg","regular_price":102.87,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Benfri fläsklägg","brand":"ICA","size":"ca 900 g","price":59,"basis":"kg","regular_price":64.54,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Benfri karré","brand":"ICA","size":"ca 1100 g","price":89,"basis":"kg","regular_price":96.95,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Sjömansbiff","brand":"ICA","size":"ca 450 g","price":159,"basis":"kg","regular_price":185.66,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Kryddade fläskmedaljonger","brand":"ICA","size":"300 g","price":39,"basis":"st","regular_price":43.32,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Ryggbiff i bit","brand":"ICA","size":"ca 900 g","price":315,"basis":"kg","regular_price":334.95,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Kycklingfärs","brand":"Kronfågel","size":"800 g","price":62.9,"basis":"st","regular_price":76.5,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Sockerärtor, salladsärtor, haricots verts","brand":"ICA","size":"150 g","price":22,"basis":"st","regular_price":"24.51-32.95","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Chips","brand":"Pringles","size":"165 g","price":45,"basis":"2 för","regular_price":34.02,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Glass","brand":"3 Vänner, Ahlgrens Bilar","size":"450 ml","price":80,"basis":"2 för","regular_price":"47.84-62.41","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"},
+        {"product":"Müslibar","brand":"Corny","size":"40-50 g","price":25,"basis":"4 för","regular_price":"9.41-11.30","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.ica.se/erbjudanden/maxi-ica-stormarknad-skovde-1004080/","verification":"VERIFIED"}
       ]
     },
     {
       "name": "Lidl Skövde",
       "source_status": {
         "status": "partial",
-        "offers_found": 9,
-        "source_note": "Officiella Lidl-sidan bekräftar kampanjperioden 12/10-18/10. Endast matrelevanta rader med tydligt produktnamn, pris, storlek och period togs med."
+        "offers_found": 12,
+        "source_note": "Officiella Lidl-sidan bekräftar kampanjperioden 19/10-25/10. Tydliga matrelevanta rader från måndag-söndag-kampanjen har inkluderats. Kastanjer har uteslutits enligt Matplans nötfilter."
       },
       "offers": [
-        {"product":"Kycklingburgare","brand":"Al Huda","size":"2,34 kg","price":99,"basis":"förp","member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.lidl.se/c/mandag-soendag/a10104396","verification":"VERIFIED"},
-        {"product":"Lätt crème fraiche","brand":"Arla","size":"500 ml","price":24.90,"basis":"förp","member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.lidl.se/c/mandag-soendag/a10104396","verification":"VERIFIED"},
-        {"product":"Crème fraiche","brand":"Arla","size":"500 ml","price":24.90,"basis":"förp","regular_price":30.50,"member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.lidl.se/c/mandag-soendag/a10104396","verification":"VERIFIED"},
-        {"product":"Kokkorv original","size":"300 g","price":26.90,"basis":"förp","member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.lidl.se/c/mandag-soendag/a10104396","verification":"VERIFIED"},
-        {"product":"Bohusgrillare","size":"200 g","price":19.90,"basis":"förp","member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.lidl.se/c/mandag-soendag/a10104396","verification":"VERIFIED"},
-        {"product":"Uddevallare","size":"200 g","price":19.90,"basis":"förp","member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.lidl.se/c/mandag-soendag/a10104396","verification":"VERIFIED"},
-        {"product":"Falukorv","brand":"Matriket","size":"800 g","price":24.90,"basis":"förp","regular_price":33.15,"member_only":true,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.lidl.se/c/mandag-soendag/a10104396","verification":"VERIFIED"},
-        {"product":"Ketchup","brand":"Felix","size":"1,25 kg","price":29.90,"basis":"förp","regular_price":33.97,"member_only":true,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.lidl.se/c/mandag-soendag/a10104396","verification":"VERIFIED"},
-        {"product":"Basmatiris långkornigt","brand":"Golden Sun","size":"1 kg","price":32.90,"basis":"förp","regular_price":37.76,"member_only":false,"valid_from":"2026-10-12","valid_to":"2026-10-18","source_url":"https://www.lidl.se/c/mandag-soendag/a10104396","verification":"VERIFIED"}
+        {"product":"Klementiner","size":"1 kg","price":19.9,"basis":"förp","regular_price":29.9,"member_only":true,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.lidl.se/c/mandag-soendag/a10104721","verification":"VERIFIED"},
+        {"product":"Bryggkaffe","size":"500 g","price":49.9,"basis":"förp","regular_price":69.9,"member_only":true,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.lidl.se/c/mandag-soendag/a10104721","verification":"VERIFIED"},
+        {"product":"Gurka","size":"1 st","price":8.9,"basis":"st","regular_price":14.9,"member_only":true,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.lidl.se/c/mandag-soendag/a10104721","verification":"VERIFIED"},
+        {"product":"Vardagsägg 15-pack","size":"15 st","price":29.9,"basis":"förp","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.lidl.se/c/mandag-soendag/a10104721","verification":"VERIFIED"},
+        {"product":"Stjärnägg 15-pack","size":"15 st","price":29.9,"basis":"förp","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.lidl.se/c/mandag-soendag/a10104721","verification":"VERIFIED"},
+        {"product":"Färsk kycklingbröstfilé","brand":"Matriket","size":"1 kg","price":99,"basis":"förp","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.lidl.se/c/mandag-soendag/a10104721","verification":"VERIFIED"},
+        {"product":"Kaki lösvikt","size":null,"price":36.9,"basis":"kg","regular_price":59.9,"member_only":false,"valid_from":"2026-10-15","valid_to":"2026-10-25","source_url":"https://www.lidl.se/c/mandag-soendag/a10104721","verification":"VERIFIED"},
+        {"product":"Broccoli","size":"500 g","price":14.9,"basis":"förp","regular_price":29.9,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.lidl.se/c/mandag-soendag/a10104721","verification":"VERIFIED"},
+        {"product":"Ananas utan krona","size":null,"price":16.9,"basis":"kg","regular_price":24.9,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.lidl.se/c/mandag-soendag/a10104721","verification":"VERIFIED"},
+        {"product":"Paprikamix","size":"1 kg","price":29.9,"basis":"förp","member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.lidl.se/c/mandag-soendag/a10104721","verification":"VERIFIED"},
+        {"product":"Mango","size":"1 st","price":11.9,"basis":"st","regular_price":16.9,"member_only":false,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.lidl.se/c/mandag-soendag/a10104721","verification":"VERIFIED"},
+        {"product":"Röda kärnfria druvor","size":"500 g","price":19.9,"basis":"förp","regular_price":34.9,"member_only":true,"valid_from":"2026-10-19","valid_to":"2026-10-25","source_url":"https://www.lidl.se/c/mandag-soendag/a10104721","verification":"VERIFIED"}
       ]
     }
   ]
